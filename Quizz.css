@@ -1,0 +1,89 @@
+.container{
+    background-color: green;
+    border: 2px solid blue;
+    width: 50%;
+    height: 80%;
+    position: relative;
+    margin-top: 2%;
+    position: relative;
+    padding-left: 9px;
+
+}
+body{
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    position: relative;
+}
+#question-container{
+    margin: 0;
+    padding: 0;
+    border: px solid red;
+    width: 99.5%;
+    height: 90%;
+    position: relative;
+    display: none;
+    padding-bottom: 8%;
+}
+#question{
+    color: white;
+    margin: 0;
+    padding: 0;
+    width: 99.5%;
+    height: 15%;
+    text-align: center;
+    font-size: 50px;
+}
+#answer-buttons{
+    margin: 0;
+    padding: 0;
+    width: 99.5%;
+    height: 88%;
+    position: relative;
+}
+.btn-grid{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+.controls{
+    border: px solid pink;
+    width: 99.5;
+    height: 8%;
+    align-content: center;
+    position: relative;
+}
+#start-btn{
+    margin-top: 150px;
+    border: none;
+    border-radius: 100px 100px;
+    position: absolute;
+    left: 35%;
+    z-index: 2;
+    width: 30%;
+    height: 480%;
+    color: white;
+    background-color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight:bolder;
+}
+#next-btn{
+    border: none;
+    border-radius: 10px 10px;
+    margin-top: 40px;
+    position: absolute;
+    left: 35%;
+    z-index: 1;
+    width: 30%;
+    height: 98%;
+    color: white;
+    font-weight: bold; 
+    font-size: larger; 
+    background-color: rgb(22, 29, 79);
+}
